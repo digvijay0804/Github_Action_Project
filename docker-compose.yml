@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  app:
+    image: github
+    container_name: github_container
+    ports:
+    - 80:80
